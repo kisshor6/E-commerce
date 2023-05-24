@@ -1,38 +1,81 @@
-.App {
+.nav-ul {
+  margin: 0;
+  padding: 10px;
+  background-color: black;
+}
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.nav-ul li a{
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
   text-align: center;
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  margin-left: 30%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right{
+  text-align: right;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.logo{
+  width: 55px;
+  height: 55px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 3px;
+  border-radius: 50%;
+}
+.input_box{
+  width: 300px;
+  display: block;
+  margin: 25px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.submit_button{
+  width: 150px;
+  margin: 25px;
+  padding: 15px;
+  background-color: black;
+  border: none;
+  cursor: pointer;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.input-invalid{
+  color: red;
+  margin-left: 25px;
+  margin-bottom: -8px;
+  display: block;
+  margin-top: -20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li{
+  display: inline-block;
+  width: 150px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+.product-list ul{
+  margin: 0px;
+  padding: auto;
+}
+.search-box{
+  width: 400px;
+  height: 40px;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
 }
